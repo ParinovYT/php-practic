@@ -18,5 +18,11 @@
 		{
 			var_dump($params); // ['var1' => 'eee', 'var2' => 'bbb']
 		}
+		
+		public function act_s()
+		{
+			return $this->render('page/act');
+		}
+		
 	}
 ?>
